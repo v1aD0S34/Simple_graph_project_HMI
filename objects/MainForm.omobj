@@ -218,8 +218,8 @@ Table_Data();
 			<![CDATA[//Chart_1.DataSource_1.Clear();
 
 Chart_1.DataSource_1.SqlQuery_1.Connect();
-//Chart_1.DataSource_1.SqlQuery_1.Text = "SELECT * FROM ""Locat"" ORDER BY id ASC" ;
-Chart_1.DataSource_1.SqlQuery_1.Text = "SELECT id, ""X""  , ""Y""  FROM ""Locat"" ORDER BY id ASC" ;
+Chart_1.DataSource_1.SqlQuery_1.Text = "SELECT * FROM ""Locat"" ORDER BY id ASC" ;
+//Chart_1.DataSource_1.SqlQuery_1.Text = "SELECT id, ""X""  , ""Y""  FROM ""Locat"" ORDER BY id ASC" ;
 Chart_1.DataSource_1.SqlQuery_1.Execute( );
 Chart_1.DataSource_1.BeginReadAsync();
 ]]>
